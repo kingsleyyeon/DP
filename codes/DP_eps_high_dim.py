@@ -260,7 +260,7 @@ def run_experiment(N, epsilon, n_simulations=500):
     return avg_excess_risk_no_dp, avg_excess_risk_dp
 
 
-epsilon_lst = [0.2, 0.4, 0.6, 0.8, 1.0]
+epsilon_lst = [0.01, 0.05, 0.1, 0.5, 1.0]
 delta = 1e-2
 sigma_multiplier = 1
 n_simulations = 500
